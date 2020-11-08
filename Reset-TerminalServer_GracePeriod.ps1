@@ -6,6 +6,8 @@
 
 ## Funciona en W2016
 ## 
+## Ejecutar:
+## PS1> Reset-TerminalServer_GracePeriod.ps1 -Force
 
 Param(
         [Parameter(Mandatory=$false)] [Switch]$Force
