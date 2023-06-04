@@ -1,0 +1,90 @@
+/* Quitar esquinas redondeadas a todas las ventanas */
+* { border-radius: 0px; }
+
+/* Dar color al TITLEBAR-ACTIVO */
+headerbar {
+  /* background-image:none; */
+
+  /* Celeste */
+  background-color:#0078d7;
+
+  /* Verde lechoso */
+  background-color:#5aaa9a;
+
+  /* Teal */
+  background-color:#199ca8;
+
+  /* Naranja */
+  background-color:#ff7139;
+
+  /* Morado */
+  background-color:#8c5dd9;
+
+  /* Rojo */
+  background-color:#e82127;
+
+  border-radius: 1px;
+  min-height: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 1px;
+  border:1px;
+}
+
+/* Dar color al TITLEBAR-inactivo */
+headerbar:backdrop {
+  /* background-image:none; */
+  border-radius: 1px;
+  /*color: none;*/
+
+  /* Celeste+Gris */
+  background-color: #002f54;
+
+  /* Verde+Gris */
+  background-color: #27564c;
+
+
+  /* Teal+Gris */
+  background-color: #0e636a;
+
+  /* Naranja+Gris */
+  background-color: #98573d;
+
+  /* Morado+Gris */
+  background-color: #675585;
+
+  /* Rojo+Gris */
+  background-color: #793436;
+
+  min-height: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 1px;
+  border:1px;
+}
+
+/* Color of inactive TAB */
+/* TABs gnome-terminator */
+notebook tab {
+	padding: 0.4em;
+	border: 0;
+
+     /* Gris */
+	border-color: #444;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Color of ACTIVE TAB */
+/* TABs gnome-terminator */
+notebook tab:checked {
+     /* Verde claro */
+	border-color: #76C802;
+	border-width: 1px;
+}
+
+/* Corregir separador transparente de "gnome-terminator" */
+separator {
+     /* Gris */
+     background-color: #414141;
+}
