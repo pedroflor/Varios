@@ -2,6 +2,8 @@
 * { border-radius: 0px; }
 
 /* Dar color al TITLEBAR-ACTIVO */
+/********************************/
+
 headerbar {
   /* background-image:none; */
 
@@ -23,6 +25,9 @@ headerbar {
   /* Rojo */
   background-color:#e82127;
 
+  /* Red Hat - Rojo+Opaco */
+  background-color: #793436;
+
   border-radius: 1px;
   min-height: 1px;
   padding-left: 1px;
@@ -32,17 +37,19 @@ headerbar {
 }
 
 /* Dar color al TITLEBAR-inactivo */
+/**********************************/
+
 headerbar:backdrop {
+	
   /* background-image:none; */
-  border-radius: 1px;
   /*color: none;*/
+  border-radius: 1px;
 
   /* Celeste+Gris */
   background-color: #002f54;
 
   /* Verde+Gris */
   background-color: #27564c;
-
 
   /* Teal+Gris */
   background-color: #0e636a;
@@ -55,6 +62,9 @@ headerbar:backdrop {
 
   /* Rojo+Gris */
   background-color: #793436;
+
+  /* Red Hat - Rojo+Opaco Oscuro */
+  background-color: #3a2d2d;
 
   min-height: 1px;
   padding-left: 1px;
