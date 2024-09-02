@@ -1,5 +1,7 @@
-## Copiar y pegar
+## Cambiar/ingresar al directorio de EPUB
+cd /path/to/epub-file-direcory/EPUB
 
+## Copiar y pegar
 for xhtmlfile in $(find ./ -type f -name "*.xhtml")
 do
     sed -i -E 's/<section class="chapter parent" id="colophon" title=.+">/<section class="chapter parent" id="colophon" title="">/g' $xhtmlfile
